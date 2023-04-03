@@ -4,7 +4,7 @@ public protocol IEvent: AnyObject {
     static func identifier() -> String
 }
 
-extension IEvent {
+public extension IEvent {
     static func identifier() -> String {
         String(reflecting: Self.self)
     }

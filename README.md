@@ -24,7 +24,7 @@ You can use Swift Package Manager (SPM). Just add the following line to your Pac
 
 ```swift 
 dependencies: [
-    .package(url: "https://github.com/bordunosp/bus.git", from: "1.0.0")
+    .package(url: "https://github.com/bordunosp/bus.git", from: "1.0.1")
 ]
 ```
 
